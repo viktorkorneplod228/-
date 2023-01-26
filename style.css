@@ -1,0 +1,74 @@
+header{
+    background: hwb(185 70% 0%)
+}
+.logo img{
+    height: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header li a,header li{
+    padding: 15px;
+    color: #000;
+    text-decoration:none ;
+}
+
+main{   
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card{
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.card img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 120px;
+}
+
+
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    overflow: hidden;
+    background: rgb(207, 10, 207);
+    transition: .3s
+}
+aside:hover {
+    width:150px;
+}
+
+
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+
+
